@@ -1,0 +1,4 @@
+---
+saslauth::install::saslauth_packages:
+  - sasl2-bin
+  - libsasl2-dev  
