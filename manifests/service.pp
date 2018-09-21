@@ -1,4 +1,4 @@
-class saslauth::service  {
+class saslauth::service inherits saslauth {
 	service { 'saslauthd':
 	ensure  => running,
 	enable  => true,

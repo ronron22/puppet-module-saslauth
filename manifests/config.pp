@@ -1,4 +1,4 @@
-class saslauth::config (
+class saslauth::config inherits saslauth (
 	$nodename = hiera('nodename'),
 	) {
 

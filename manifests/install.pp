@@ -1,4 +1,4 @@
-class saslauth::install (
+class saslauth::install inherits saslauth (
 	$saslauth_packages = hiera('saslauth_packages'),
 	) {
 
