@@ -1,6 +1,6 @@
-class saslauth::config inherits saslauth (
+class saslauth::config (
 	$nodename = hiera('nodename'),
-	) {
+	) inherits saslauth {
 
 	#include saslauth::service
 
